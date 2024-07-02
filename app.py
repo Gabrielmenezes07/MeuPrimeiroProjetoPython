@@ -77,10 +77,7 @@ def alternar_estado_restaurante():
             
     if not restaurante_encontrado:
         print('O restaurante não foi encontrado')
-            
-
-
-    voltar_ao_menu_principal()
+        voltar_ao_menu_principal()
 
 def escolher_opcao():
     try:   
